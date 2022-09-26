@@ -1,0 +1,114 @@
+body{
+    /* Created with https://www.css-gradient.com */
+height: 100%;
+background: #CE612E;
+background: -webkit-linear-gradient(bottom, #cc602e, #d8dc16);
+background: -moz-linear-gradient(bottom, #CE612E, #D8DC16);
+background: linear-gradient(to top, #CE612E, #D8DC16);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'SF Pro Display', sans-serif;
+                                                
+}
+.header{
+position: sticky;
+/* background-color:rgb(232, 232, 232,0.5); */
+text-align: left;
+font-size: 67px;
+color: #ffdd00 ;
+text-shadow: #ba3e00 5px 5px 5px;
+display: flex;
+align-items: center;
+width: auto;
+height: 89vh;
+/* backdrop-filter: blur(15px); */
+opacity: 0.75;
+margin-top: 0;
+}
+
+h1{
+color: #ffdd00 ;
+text-shadow: #ba3e00 5px 5px 5px;
+}
+
+.navbar{
+  /* padding: 15px; */  
+  display: inline;
+  justify-content: space-between;
+  margin:0;
+  border-radius: 15px;
+
+}
+
+ul {
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    backdrop-filter: blur(15px);
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    font-style: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    backdrop-filter: blur(15px);
+    text-shadow: #ba3e00 10px 10px 10px;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgba(17, 17, 17, 0);
+  } 
+  
+  .active {
+   font-weight: bold;
+  }
+
+  .container {
+    text-align: center;
+    font-size: 30px;
+  }
+
+.text{
+    color: black;
+}
+
+.about{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 69%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    /* border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2); */
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.33);
+    border-radius: 15px;
+}
+
+.footer{
+    clear: both;
+    position: relative;
+    height: auto;
+    margin-top: 85.5vh;
+    text-align: center;
+    color: cornsilk;
+    opacity: 0.33;
+}
